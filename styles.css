@@ -121,6 +121,22 @@ ul{
 .quote-section{
     background-color: #E5E7EB;
     flex: 1 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    width: 70vw;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.author{
+    margin-left: 40%;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
 }
 .signup-section{
     background-color: white;
