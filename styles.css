@@ -93,7 +93,30 @@ ul{
 }
 .info-section{
     background-color: white;
-        flex: 1 0 100px;
+    flex: 1 0 100px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}  
+.image{
+    width: 200px;
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 3px solid rgb(29, 99, 210);
+    border-radius: 8px;
+    object-fit: cover;
+}
+.caption{
+    text-align: center;
+    margin-top: auto;
+    max-width: 200px;
 }
 .quote-section{
     background-color: #E5E7EB;
